@@ -63,17 +63,25 @@ body {
     background-size: cover; */
   }
   .dark-mode .container{
-    background-color: whitesmoke;
-    box-shadow: 15px 10px 9px lightblue;
+    background-color: white;
+    box-shadow: 15px 10px 9px gray;
   }
 
-  /* .dark-mode .select,button{
+.dark-mode button{
     margin-top: 10px;
     justify-content: center;
     background-color:lightblue;
-    border: 1px solid black;
+    border: 1px solid cornflowerblue;
     border-radius: 12px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-  } */
+  }
+.dark-mode select{
+     margin-top: 10px;
+    justify-content: center;
+    background-color:lightblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
   
   
