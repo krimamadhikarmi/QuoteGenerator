@@ -6,6 +6,8 @@ body {
   align-items: center;
   height: 90vh; 
   margin: 0; 
+  background-image: url('grad.avif');
+  background-size: cover;
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
     background-color: lightskyblue;
     border-radius: 20px;
     border: 1px solid black;
-    box-shadow: 10px 10px 6px plum;
+    box-shadow: 10px 10px 6px lightpink;
   }
   .container header{
     text-align: center;
@@ -59,8 +61,8 @@ body {
   .dark-mode {
     background-color: black;
     color:black;
-    /* background-image: url('night.avif');
-    background-size: cover; */
+    background-image: url('night.avif');
+    background-size: cover;
   }
   .dark-mode .container{
     background-color: white;
