@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 90%;
+    /* max-width: 90%; */
     width: 40%;
     padding: 20px;
     background-color: lightskyblue;
@@ -85,16 +85,36 @@ body {
     border-radius: 12px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .container {
-    max-width: 90%; 
-    width: 60%;
+    width: 85%; 
+    margin-bottom: 14px;
+    height: 310px;
+   
+    
   }
   button {
-    width: 90%; 
+    width: 70%; 
     margin-top: 10px; 
   }
-  
+  .container header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family:cursive
+  }
+  .quote {
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 1.2;
+    align-items: center;
+    font-family: Indie Flower;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+ 
+
 }
   
   
